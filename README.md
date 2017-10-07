@@ -1,5 +1,14 @@
 # code-for-newark-website
 
-@@@ This is 
+@@@  
+#!/usr/bin/python
+ppl = ['Alice', 'Bob', 'Carol', 'Doug']
+print ppl
+excited_ppl = [e + '!!' for e in ppl]
+print e
+print excited_ppl
+print ppl
 
-    A BOX
+ppl_len = [len(x) for x in ppl]
+print ppl_len
+
